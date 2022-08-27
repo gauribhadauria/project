@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gauri fitness</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+
+<style>
+	body{
+	     margin: 0px;
+         padding: 0px;
+         background: url("media/gym2.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+         color: white;
+         font-family: 'Baloo 2', cursive;
+
+         }
+    .left{
+    	/*border : 2px solid red;*/
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+    .left img{
+             filter: invert(100%);
+             height: 60px;
+             width: 100px;
+             margin-left: 47px;
+    }
+    .left div{
+    	text-align: center;
+    	font-size: 40px;
+    	    line-height: 70px;
+        margin: auto;
+    }
+    .navbar{
+    	display: inline-block;
+
+    }
+    .navbar li{
+    	display: inline-block;
+    	font-size: 25px;
+    	}
+    .navbar li a{
+    	color: white;
+    	text-decoration: none;
+    	padding: 34px 23px;
+    }
+    .navbar li a:hover{
+    	text-decoration: underline;
+    	color: grey;
+    }
+    .mid{
+         /*border : 2px solid green;
+*/         display: block;
+         width: 50%;
+         margin: 20px auto;
+    }
+
+    
+    .right{
+         /* border : 2px solid blue;
+*/          display: inline-block;
+          position: absolute;
+          right: 34px;
+          top: 20px;
+    }
+    .btn{
+       margin: 0px 9px;
+       background-color: black;
+       color: white;
+       padding: 4px 14px;
+       border: 2px solid grey;
+       border-image-source: 10px;
+       font-size: 20px;
+       cursor:pointer;
+       font-family: 'Baloo 2', cursive;
+    }
+    .btn:hover{
+    	background-color: darkgrey;
+    	color: black
+    }
+    .container{
+    	border: 2px solid grey;
+    margin: 100px 350px;
+    padding: 10px 10px;
+    width: 55%;
+    border-radius: 8px;
+    text-align: center;
+    }
+    .form-group input{
+    	display: block;
+    width: 450px;
+    border: 2px solid white;
+    padding: 1px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+    /*background-color: grey;
+    color: black;*/
+    }
+    .form-group button{
+       /*text-align: center;*/
+       display: block;
+       width: 20%;
+       margin: auto;
+       font-family: 'Baloo 2', cursive;
+       border-radius: 10px;
+    }
+    
+</style>
+<body>
+	<header class="font">
+		
+		<div class="left">
+		    <img src="media/logo2.png"><br>
+		    <div><b>Gauri fitness</b></div>
+		</div>
+		<div class="mid">
+			<ul class="navbar">
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Review</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
+		</div>
+		<div class="right mx-auto px-auto">
+			<button class="btn  ">Facebook</button>
+			<button class="btn ">Instagram</button>
+		</div>
+	</header>
+    <div class="container">
+    	<h1>Join the best gym in Kanpur</h1>
+    	<form class="form-group">
+    		<input type="text" name="name" placeholder="Enter your name">
+    		<input type="text" name="name" placeholder="Gender">
+            <input type="number" name="name" placeholder="Age">
+            <input type="number" name="name" placeholder=" Contact number">
+            <button type="button" name="submit" class="btn" value="submit">Submit</button>
+
+    	</form>
+    </div>	
+
+</body>
+</html>
